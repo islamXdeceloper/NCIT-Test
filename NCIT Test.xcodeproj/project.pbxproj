@@ -3,27 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		6F8CC8D92475EA8B00316FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8D82475EA8B00316FA1 /* AppDelegate.swift */; };
 		6F8CC8DB2475EA8B00316FA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8DA2475EA8B00316FA1 /* SceneDelegate.swift */; };
-		6F8CC8DD2475EA8B00316FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8DC2475EA8B00316FA1 /* ViewController.swift */; };
+		6F8CC8DD2475EA8B00316FA1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8DC2475EA8B00316FA1 /* LoginViewController.swift */; };
 		6F8CC8E02475EA8B00316FA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CC8DE2475EA8B00316FA1 /* Main.storyboard */; };
 		6F8CC8E22475EA8E00316FA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CC8E12475EA8E00316FA1 /* Assets.xcassets */; };
 		6F8CC8E52475EA8E00316FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8CC8E32475EA8E00316FA1 /* LaunchScreen.storyboard */; };
+		6F8CC8FC2475ED1000316FA1 /* UIViewXRadialGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8F12475ED0F00316FA1 /* UIViewXRadialGradient.swift */; };
+		6F8CC8FD2475ED1000316FA1 /* UITextFieldX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8F22475ED0F00316FA1 /* UITextFieldX.swift */; };
+		6F8CC8FE2475ED1000316FA1 /* UIButtonX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8F32475ED0F00316FA1 /* UIButtonX.swift */; };
+		6F8CC8FF2475ED1000316FA1 /* UILabelX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8F42475ED0F00316FA1 /* UILabelX.swift */; };
+		6F8CC9002475ED1000316FA1 /* UIViewAnchorPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8F52475ED0F00316FA1 /* UIViewAnchorPoint.swift */; };
+		6F8CC9012475ED1000316FA1 /* UIViewControllerX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8F62475ED0F00316FA1 /* UIViewControllerX.swift */; };
+		6F8CC9022475ED1000316FA1 /* UIImageViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8F72475ED0F00316FA1 /* UIImageViewX.swift */; };
+		6F8CC9032475ED1000316FA1 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8F82475ED0F00316FA1 /* UIViewX.swift */; };
+		6F8CC9042475ED1000316FA1 /* UIVisualEffectViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8F92475ED0F00316FA1 /* UIVisualEffectViewX.swift */; };
+		6F8CC9052475ED1000316FA1 /* UISliderX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8FA2475ED0F00316FA1 /* UISliderX.swift */; };
+		6F8CC9062475ED1000316FA1 /* Extentions+validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC8FB2475ED1000316FA1 /* Extentions+validations.swift */; };
+		6F8CC90B2475FCAB00316FA1 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC90A2475FCAB00316FA1 /* URLs.swift */; };
+		6F8CC90D2475FE6700316FA1 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC90C2475FE6700316FA1 /* Api.swift */; };
+		6F8CC90F2476008A00316FA1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC90E2476008A00316FA1 /* SignUpViewController.swift */; };
+		6F8CC91124760ED500316FA1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC91024760ED500316FA1 /* HomeViewController.swift */; };
+		6F8CC913247610C100316FA1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC912247610C100316FA1 /* FirstViewController.swift */; };
+		6F8CC9172476172A00316FA1 /* InternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC9152476172A00316FA1 /* InternetConnection.swift */; };
+		6F8CC9182476172A00316FA1 /* HandleConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8CC9162476172A00316FA1 /* HandleConnection.swift */; };
+		E5C6D7234404231C4A86CDE7 /* Pods_NCIT_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0EC524132FCCC74A42FAB8 /* Pods_NCIT_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0152C82957C6E3A99F5C0E33 /* Pods-NCIT Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCIT Test.release.xcconfig"; path = "Target Support Files/Pods-NCIT Test/Pods-NCIT Test.release.xcconfig"; sourceTree = "<group>"; };
+		0EF11E7738C89B4974ABB60A /* Pods-NCIT Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NCIT Test.debug.xcconfig"; path = "Target Support Files/Pods-NCIT Test/Pods-NCIT Test.debug.xcconfig"; sourceTree = "<group>"; };
 		6F8CC8D52475EA8A00316FA1 /* NCIT Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NCIT Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8CC8D82475EA8B00316FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F8CC8DA2475EA8B00316FA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6F8CC8DC2475EA8B00316FA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F8CC8DC2475EA8B00316FA1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		6F8CC8DF2475EA8B00316FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F8CC8E12475EA8E00316FA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F8CC8E42475EA8E00316FA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F8CC8E62475EA8E00316FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F8CC8F12475ED0F00316FA1 /* UIViewXRadialGradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewXRadialGradient.swift; sourceTree = "<group>"; };
+		6F8CC8F22475ED0F00316FA1 /* UITextFieldX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldX.swift; sourceTree = "<group>"; };
+		6F8CC8F32475ED0F00316FA1 /* UIButtonX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonX.swift; sourceTree = "<group>"; };
+		6F8CC8F42475ED0F00316FA1 /* UILabelX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelX.swift; sourceTree = "<group>"; };
+		6F8CC8F52475ED0F00316FA1 /* UIViewAnchorPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewAnchorPoint.swift; sourceTree = "<group>"; };
+		6F8CC8F62475ED0F00316FA1 /* UIViewControllerX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerX.swift; sourceTree = "<group>"; };
+		6F8CC8F72475ED0F00316FA1 /* UIImageViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewX.swift; sourceTree = "<group>"; };
+		6F8CC8F82475ED0F00316FA1 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		6F8CC8F92475ED0F00316FA1 /* UIVisualEffectViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIVisualEffectViewX.swift; sourceTree = "<group>"; };
+		6F8CC8FA2475ED0F00316FA1 /* UISliderX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderX.swift; sourceTree = "<group>"; };
+		6F8CC8FB2475ED1000316FA1 /* Extentions+validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extentions+validations.swift"; path = "../../../../Other Computer/2020-Task/Full-Task/Full-Task/Controller/Extensions/Extentions+validations.swift"; sourceTree = "<group>"; };
+		6F8CC90A2475FCAB00316FA1 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		6F8CC90C2475FE6700316FA1 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		6F8CC90E2476008A00316FA1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6F8CC91024760ED500316FA1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6F8CC912247610C100316FA1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		6F8CC9152476172A00316FA1 /* InternetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnection.swift; sourceTree = "<group>"; };
+		6F8CC9162476172A00316FA1 /* HandleConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleConnection.swift; sourceTree = "<group>"; };
+		FE0EC524132FCCC74A42FAB8 /* Pods_NCIT_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NCIT_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +71,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C6D7234404231C4A86CDE7 /* Pods_NCIT_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		622027457EC8E2F23C459A12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EF11E7738C89B4974ABB60A /* Pods-NCIT Test.debug.xcconfig */,
+				0152C82957C6E3A99F5C0E33 /* Pods-NCIT Test.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6F8CC8CC2475EA8A00316FA1 = {
 			isa = PBXGroup;
 			children = (
 				6F8CC8D72475EA8A00316FA1 /* NCIT Test */,
 				6F8CC8D62475EA8A00316FA1 /* Products */,
+				622027457EC8E2F23C459A12 /* Pods */,
+				C8F2A22A98F7A07EF7CEF523 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +108,115 @@
 		6F8CC8D72475EA8A00316FA1 /* NCIT Test */ = {
 			isa = PBXGroup;
 			children = (
-				6F8CC8D82475EA8B00316FA1 /* AppDelegate.swift */,
-				6F8CC8DA2475EA8B00316FA1 /* SceneDelegate.swift */,
-				6F8CC8DC2475EA8B00316FA1 /* ViewController.swift */,
-				6F8CC8DE2475EA8B00316FA1 /* Main.storyboard */,
-				6F8CC8E12475EA8E00316FA1 /* Assets.xcassets */,
-				6F8CC8E32475EA8E00316FA1 /* LaunchScreen.storyboard */,
-				6F8CC8E62475EA8E00316FA1 /* Info.plist */,
+				6F8CC9072475FC2600316FA1 /* WebServices */,
+				6F8CC8EE2475EBE000316FA1 /* Supporting File */,
+				6F8CC8ED2475EBDA00316FA1 /* Controller */,
+				6F8CC8EC2475EBD400316FA1 /* View  */,
 			);
 			path = "NCIT Test";
+			sourceTree = "<group>";
+		};
+		6F8CC8EC2475EBD400316FA1 /* View  */ = {
+			isa = PBXGroup;
+			children = (
+				6F8CC8E32475EA8E00316FA1 /* LaunchScreen.storyboard */,
+				6F8CC8DE2475EA8B00316FA1 /* Main.storyboard */,
+			);
+			path = "View ";
+			sourceTree = "<group>";
+		};
+		6F8CC8ED2475EBDA00316FA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F8CC8DC2475EA8B00316FA1 /* LoginViewController.swift */,
+				6F8CC90E2476008A00316FA1 /* SignUpViewController.swift */,
+				6F8CC91024760ED500316FA1 /* HomeViewController.swift */,
+				6F8CC912247610C100316FA1 /* FirstViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F8CC8EE2475EBE000316FA1 /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				6F8CC9142476172A00316FA1 /* Connection */,
+				6F8CC8EF2475ECFF00316FA1 /* Extension */,
+				6F8CC8D82475EA8B00316FA1 /* AppDelegate.swift */,
+				6F8CC8E12475EA8E00316FA1 /* Assets.xcassets */,
+				6F8CC8E62475EA8E00316FA1 /* Info.plist */,
+				6F8CC8DA2475EA8B00316FA1 /* SceneDelegate.swift */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		6F8CC8EF2475ECFF00316FA1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6F8CC8F02475ED0F00316FA1 /* DesignableX */,
+				6F8CC8FB2475ED1000316FA1 /* Extentions+validations.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6F8CC8F02475ED0F00316FA1 /* DesignableX */ = {
+			isa = PBXGroup;
+			children = (
+				6F8CC8F12475ED0F00316FA1 /* UIViewXRadialGradient.swift */,
+				6F8CC8F22475ED0F00316FA1 /* UITextFieldX.swift */,
+				6F8CC8F32475ED0F00316FA1 /* UIButtonX.swift */,
+				6F8CC8F42475ED0F00316FA1 /* UILabelX.swift */,
+				6F8CC8F52475ED0F00316FA1 /* UIViewAnchorPoint.swift */,
+				6F8CC8F62475ED0F00316FA1 /* UIViewControllerX.swift */,
+				6F8CC8F72475ED0F00316FA1 /* UIImageViewX.swift */,
+				6F8CC8F82475ED0F00316FA1 /* UIViewX.swift */,
+				6F8CC8F92475ED0F00316FA1 /* UIVisualEffectViewX.swift */,
+				6F8CC8FA2475ED0F00316FA1 /* UISliderX.swift */,
+			);
+			name = DesignableX;
+			path = "../../../../Other Computer/2020-Task/Full-Task/Full-Task/Controller/Extensions/DesignableX";
+			sourceTree = "<group>";
+		};
+		6F8CC9072475FC2600316FA1 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				6F8CC9092475FC3700316FA1 /* URLs */,
+				6F8CC9082475FC2F00316FA1 /* APi */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		6F8CC9082475FC2F00316FA1 /* APi */ = {
+			isa = PBXGroup;
+			children = (
+				6F8CC90C2475FE6700316FA1 /* Api.swift */,
+			);
+			path = APi;
+			sourceTree = "<group>";
+		};
+		6F8CC9092475FC3700316FA1 /* URLs */ = {
+			isa = PBXGroup;
+			children = (
+				6F8CC90A2475FCAB00316FA1 /* URLs.swift */,
+			);
+			path = URLs;
+			sourceTree = "<group>";
+		};
+		6F8CC9142476172A00316FA1 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+				6F8CC9152476172A00316FA1 /* InternetConnection.swift */,
+				6F8CC9162476172A00316FA1 /* HandleConnection.swift */,
+			);
+			name = Connection;
+			path = "../../../Diet-Hub-Customers-Diet/Diet Hub Customers/Resources/Connection";
+			sourceTree = "<group>";
+		};
+		C8F2A22A98F7A07EF7CEF523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE0EC524132FCCC74A42FAB8 /* Pods_NCIT_Test.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6F8CC8E92475EA8E00316FA1 /* Build configuration list for PBXNativeTarget "NCIT Test" */;
 			buildPhases = (
+				3019D40D1C714557B55C3CF2 /* [CP] Check Pods Manifest.lock */,
 				6F8CC8D12475EA8A00316FA1 /* Sources */,
 				6F8CC8D22475EA8A00316FA1 /* Frameworks */,
 				6F8CC8D32475EA8A00316FA1 /* Resources */,
+				55421477B0C2E388315A1559 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +287,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3019D40D1C714557B55C3CF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NCIT Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55421477B0C2E388315A1559 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NCIT Test/Pods-NCIT Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NCIT Test/Pods-NCIT Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NCIT Test/Pods-NCIT Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6F8CC8D12475EA8A00316FA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8CC8DD2475EA8B00316FA1 /* ViewController.swift in Sources */,
+				6F8CC9012475ED1000316FA1 /* UIViewControllerX.swift in Sources */,
+				6F8CC9022475ED1000316FA1 /* UIImageViewX.swift in Sources */,
+				6F8CC9042475ED1000316FA1 /* UIVisualEffectViewX.swift in Sources */,
+				6F8CC9032475ED1000316FA1 /* UIViewX.swift in Sources */,
+				6F8CC9172476172A00316FA1 /* InternetConnection.swift in Sources */,
+				6F8CC9002475ED1000316FA1 /* UIViewAnchorPoint.swift in Sources */,
+				6F8CC91124760ED500316FA1 /* HomeViewController.swift in Sources */,
+				6F8CC90F2476008A00316FA1 /* SignUpViewController.swift in Sources */,
+				6F8CC8DD2475EA8B00316FA1 /* LoginViewController.swift in Sources */,
 				6F8CC8D92475EA8B00316FA1 /* AppDelegate.swift in Sources */,
+				6F8CC9062475ED1000316FA1 /* Extentions+validations.swift in Sources */,
+				6F8CC9052475ED1000316FA1 /* UISliderX.swift in Sources */,
+				6F8CC913247610C100316FA1 /* FirstViewController.swift in Sources */,
+				6F8CC8FE2475ED1000316FA1 /* UIButtonX.swift in Sources */,
+				6F8CC90B2475FCAB00316FA1 /* URLs.swift in Sources */,
+				6F8CC8FF2475ED1000316FA1 /* UILabelX.swift in Sources */,
+				6F8CC9182476172A00316FA1 /* HandleConnection.swift in Sources */,
+				6F8CC8FC2475ED1000316FA1 /* UIViewXRadialGradient.swift in Sources */,
+				6F8CC8FD2475ED1000316FA1 /* UITextFieldX.swift in Sources */,
+				6F8CC90D2475FE6700316FA1 /* Api.swift in Sources */,
 				6F8CC8DB2475EA8B00316FA1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +496,13 @@
 		};
 		6F8CC8EA2475EA8E00316FA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF11E7738C89B4974ABB60A /* Pods-NCIT Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = PG3X2P4EBP;
-				INFOPLIST_FILE = "NCIT Test/Info.plist";
+				INFOPLIST_FILE = "NCIT Test/Supporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +516,13 @@
 		};
 		6F8CC8EB2475EA8E00316FA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0152C82957C6E3A99F5C0E33 /* Pods-NCIT Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = PG3X2P4EBP;
-				INFOPLIST_FILE = "NCIT Test/Info.plist";
+				INFOPLIST_FILE = "NCIT Test/Supporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
